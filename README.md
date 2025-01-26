@@ -29,7 +29,7 @@ This project implements a **full-stack e-commerce application** using a **micros
 
 ## Architecture
 
-![Architecture](https://github.com/telishreyas10/ecommerce/blob/main/resources/architecture.png)
+![Architecture](https://github.com/telishreyas10/ecommerce/blob/main/architecture/architecture.png)
 
 ### Key Components
 
