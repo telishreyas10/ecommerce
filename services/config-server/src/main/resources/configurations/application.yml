@@ -1,0 +1,21 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+
+spring:
+  cloud:
+    config:
+      override-system-properties: false
+
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+      connect-timeout: 1s
+      read-timeout: 10s
+  tracing:
+    sampling:
+      probability: 1.0
